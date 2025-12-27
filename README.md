@@ -3,7 +3,7 @@
 ## 📌 Abstract
 This project implements a **Client–Server Chat Messenger** using **Java Swing**, **TCP socket programming**, and **multithreading**.  
 It allows two-way real-time text communication between a server and a client through a graphical user interface.  
-The system ensures safe communication using `DataInputStream` and `DataOutputStream`, maintains a client-side chat log, and supports graceful termination using a predefined `"bye"` protocol.
+The system ensures safe communication using `DataInputStream` and `DataOutputStream`, maintains a server&client-side chat log, and supports graceful termination using a predefined `"bye"` protocol.
 
 This project demonstrates core networking concepts, GUI development, file handling, and concurrent programming in Java.
 
@@ -107,9 +107,9 @@ Client–Server Chat System /<br>
 - Mode: Append (previous chats preserved)
 
 ### Sample Log File
-[2025-01-10T11:20:15] You : Hello
-[2025-01-10T11:20:18] Server : Hi
-[2025-01-10T11:20:25] You : bye
+[2025-01-10T11:20:15] You : Hello<br>
+[2025-01-10T11:20:18] Server : Hi<br>
+[2025-01-10T11:20:25] You : bye<br>
 
 ---
 
@@ -129,7 +129,7 @@ All resources are closed when `"bye"` is sent or received.
 ## ▶️ How to Run
 
 ### Compile the Programs
-```bash
+
 javac ServerLogin.java
 javac ClientLogin.java
 
