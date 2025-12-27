@@ -130,19 +130,19 @@ All resources are closed when `"bye"` is sent or received.
 
 ### Compile the Programs
 
-javac ServerLogin.java
+javac ServerLogin.java<br>
 javac ClientLogin.java
 
 ---
 
 🎯 Future Enhancements
 
-Add usernames and authentication
-Multi-client support (threaded server)
-Improved GUI layout
-Message timestamps in GUI
-Emoji support
-Database-backed chat history
+Add usernames and authentication<br>
+Multi-client support (threaded server)<br>
+Improved GUI layout<br>
+Message timestamps in GUI<br>
+Emoji support<br>
+Database-backed chat history<br>
 
 ---
 
