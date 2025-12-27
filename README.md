@@ -93,6 +93,7 @@ Client–Server Chat System /<br>
 ├── ClientLogin.java<br>
 ├── ServerLogin.java<br>
 ├── client_chat.log<br>
+├── server_chat.log<br>
 └── README.md
 
 ---
