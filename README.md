@@ -1,4 +1,4 @@
-# 💬 Java Client–Server Chat Application
+# 💬 Java Client–Server Chat System 
 
 ## 📌 Abstract
 This project implements a **Client–Server Chat Messenger** using **Java Swing**, **TCP socket programming**, and **multithreading**.  
@@ -89,10 +89,10 @@ This project demonstrates core networking concepts, GUI development, file handli
 
 ## 📂 Project Structure
 
-ChatApplication/
-├── ClientLogin.java
-├── ServerLogin.java
-├── client_chat.log
+Client–Server Chat System /<br>
+├── ClientLogin.java<br>
+├── ServerLogin.java<br>
+├── client_chat.log<br>
 └── README.md
 
 ---
